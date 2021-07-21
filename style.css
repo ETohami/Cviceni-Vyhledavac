@@ -1,0 +1,20 @@
+h1 {
+    font-size: 150px;
+    font-weight: 600;
+    color: navy;
+    position: relative;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+button,
+input {
+    font-size: 30px;
+}
